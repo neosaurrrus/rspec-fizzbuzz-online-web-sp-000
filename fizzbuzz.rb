@@ -2,10 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(x)
   if x==3
-    puts "Fizz"
+    "Fizz"
   elsif x==5
-    puts "Buzz"
+    "Buzz"
   elsif x==15
-    puts "FizzBuzz"
+    "FizzBuzz"
   end
 end
