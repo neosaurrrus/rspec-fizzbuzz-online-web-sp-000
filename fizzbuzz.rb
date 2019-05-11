@@ -3,9 +3,14 @@
 def fizzbuzz(x)
   if x==3
     puts "Fizz"
+  end
   elsif x==5
     puts "Buzz"
+  end
   elsif x==15
     puts "FizzBuzz"
-  else return nil
+  end
+  else
+    return nil
+  end
 end
